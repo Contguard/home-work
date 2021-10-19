@@ -68,13 +68,13 @@ use " kubectl port-forward ... " then youll be able to reach service on your loc
 attach a screen shot of the dashboard service . check that by refreshing the page ,  the counter incerment's  .
 please add some documents the showing the proccess including screenshots of commands output , logs , and explanations . 
 
-### BONUS (optional) :
+### BONUS IDEAS (optional) :
 ```
-1. add a LoadBalancer service \ or use an nginx ingress-controller with an ingress rule in order to have external acceess to the dashboard service.
-2. add a helm chart for the app
-3. use cert-manger & letsencrypt to add ssl cert for the dashboard app.
-4. build the app from source
-5. feel free to show more skills .. :)
+* add a LoadBalancer service \ or use an nginx ingress-controller with an ingress rule in order to have external acceess to the dashboard service.
+* add a helm chart for the app
+* use cert-manger & letsencrypt to add ssl cert for the dashboard app.
+* build the app from source
+* feel free to show more skills .. :)
 ```
 
 ## important: 
