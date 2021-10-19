@@ -1,6 +1,6 @@
 # Home-work for DEVOPS & IT POSITION
 
-create a free azure account https://azure.microsoft.com/en-us/free/ (there shouldnt be any additional charges with this task , but we're not responsible if for some reason youre getting charged)
+create a free azure account https://azure.microsoft.com/en-us/free/ (there shouldn't be any additional charges with this task , but we're not responsible if for some reason youre getting charged)
 
 ### getting started :  
 ## create a a kubernetes cluster on (AKS) (which stands in the free trial ) through the UI / CLI 
@@ -12,27 +12,37 @@ any other platform will be accepted but should be on the cloud.
 ___
 Install `kubectl`.
 
-connect to the cluster and show it e.g. attach here output of : 
+connect to the cluster and show the output of : 
 ```
 kubectl get all 
 ```
 ----
 
-##  1 clone the repo 
+##  1. clone the repo 
 ```
 git clone https://github.com/Contguard/home-work.git
 ```
 
-## 2  create yaml files
- that will pull image's from your repo, and will push it to the cluster 
+## 2.  create yaml files for deployment :
+```
+#that will pull image's from your repo(see next step ), and will push it to the cluster 
+
+
+```
 ---
-## create a workflow(s) for each service  using github-actions that does that:
+## 3. create a workflow(s) for each service  using github-actions that does that:
  1. build's  dockerfile for each service.
  2. push the images to a container registry (dosent matter which one)
+ 3. deploy app .
 
-3. deploy app .
+more info can be found here https://docs.github.com/en/actions
 ## check that the app is functional
-
+ ```
+ tip: make sure that the dashboard service can reach the counting service when you deployed the app,
+      the address to it may be different .
+      so make sure to set right the value of : 
+      ENV COUNTING_SERVICE_URL 
+ ```
 
 
 
@@ -60,7 +70,7 @@ the code for the service's is taken from hashicorp github repo . so you may find
  all files created for the task should be included in the repo. 
 please add some documents the showing the proccess . 
 as mentioned , there shoudnt be any charge  but we're notresponsible for any charges .
-
+## it may be easier if you test everything manually, and then move each step, to the workflow (for your choice).
 ## dont hesitate to ask any questions  .
 ## take 3 days for the task .
 ## clean everything ! &  send me a link to the repo / zip file.
