@@ -64,6 +64,8 @@ kubectl get svc
 
 use " kubectl port-forward ... " then youll be able to reach service on your localhost.
 
+if possible add a LoadBalancer service that your app can be reached externally . 
+
 attach a screen shot of the dashboard service . check that by refreshing the page ,  the counter incerment's  .
 please add some documents the showing the proccess including screenshots and explanations . 
 
@@ -83,6 +85,6 @@ as mentioned , there shoudnt be any charge  but we're notresponsible for any cha
 
 ## dont hesitate to ask any questions  .
 ## take 3 days for the task .
-## clean everything ! &  send me a link to the repo / zip file.
+# dont forget tp clean everything when finished ! &  send me a link to the repo / zip file.
 
 good luck! 
