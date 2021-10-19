@@ -50,7 +50,7 @@ more info can be found here https://docs.github.com/en/actions
  tip: make sure that the dashboard service can reach the counting service when you deployed the app,
       the address to it may be different .
       so make sure to set right the value of : 
-      ENV COUNTING_SERVICE_URL 
+      COUNTING_SERVICE_URL 
  ```
 
 
@@ -66,7 +66,7 @@ use " kubectl port-forward ... " then youll be able to reach service on your loc
 if possible add a LoadBalancer service that your app can be reached externally . 
 
 attach a screen shot of the dashboard service . check that by refreshing the page ,  the counter incerment's  .
-please add some documents the showing the proccess including screenshots and explanations . 
+please add some documents the showing the proccess including screenshots of commands output , logs , and explanations . 
 
 ### BONUS :
 
