@@ -25,14 +25,24 @@ git clone https://github.com/Contguard/home-work.git
 
 ## 2.  create yaml files for deployment :
 ```
-#that will pull image's from your repo(see next step ), and will push it to the cluster 
-
+that will pull image's from your repo(see next step ), and will push it to the cluster 
+you can use this tutorial as a template , (Change/remove values as needed, https://docs.microsoft.com/en-us/azure/aks/ingress-basic#run-demo-applications )
 
 ```
 ---
 ## 3. create a workflow(s) for each service  using github-actions that does that:
+
+```
+TIP:
+it may be easier if you test everything manually first, and then move each step, to the workflow (but for your choice): 
+docker build .. 
+docker push , 
+kubectl apply -f .. 
+
+```
+
  1. build's  dockerfile for each service.
- 2. push the images to a container registry (dosent matter which one)
+ 2. push the images to a container registry (dosent matter which one.. dockerhub \ azure acr \ github packages  ..),
  3. deploy app .
 
 more info can be found here https://docs.github.com/en/actions
@@ -70,7 +80,7 @@ the code for the service's is taken from hashicorp github repo . so you may find
  all files created for the task should be included in the repo. 
 please add some documents the showing the proccess . 
 as mentioned , there shoudnt be any charge  but we're notresponsible for any charges .
-## it may be easier if you test everything manually, and then move each step, to the workflow (for your choice).
+
 ## dont hesitate to ask any questions  .
 ## take 3 days for the task .
 ## clean everything ! &  send me a link to the repo / zip file.
