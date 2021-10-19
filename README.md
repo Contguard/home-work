@@ -46,7 +46,7 @@ kubectl apply -f ..
  3. deploy app .
 
 more info can be found here https://docs.github.com/en/actions
-## check that the app is functional
+## 4. check that the app is functional
  ```
  tip: make sure that the dashboard service can reach the counting service when you deployed the app,
       the address to it may be different .
@@ -56,7 +56,7 @@ more info can be found here https://docs.github.com/en/actions
 
 
 
-## last step :
+## 5. Last step  :
 determine the svc name . 
 ```
 kubectl get svc
@@ -65,6 +65,7 @@ kubectl get svc
 use " kubectl port-forward ... " then youll be able to reach service on your localhost.
 
 attach a screen shot of the dashboard service . check that by refreshing the page ,  the counter incerment's  .
+please add some documents the showing the proccess including screenshots and explanations . 
 
 ### BONUS :
 
@@ -75,10 +76,9 @@ attach a screen shot of the dashboard service . check that by refreshing the pag
 5. feel free to show more skills .. :)
 
 ----
- important: 
+## important: 
 the code for the service's is taken from hashicorp github repo . so you may find more info that can help you to complete the task.
  all files created for the task should be included in the repo. 
-please add some documents the showing the proccess . 
 as mentioned , there shoudnt be any charge  but we're notresponsible for any charges .
 
 ## dont hesitate to ask any questions  .
