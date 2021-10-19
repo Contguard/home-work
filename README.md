@@ -2,7 +2,7 @@
 
 create a free azure account https://azure.microsoft.com/en-us/free/ (there shouldnt be any additional charges with this task , but we're not responsible if for some reason youre getting charged)
 
-### getting stareted :  
+### getting started :  
 ## create a a kubernetes cluster on (AKS) (which stands in the free trial ) through the UI / CLI 
 
 any other platform will be accepted but should be on the cloud.
