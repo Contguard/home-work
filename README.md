@@ -76,14 +76,14 @@ please add some documents the showing the proccess including screenshots of comm
 4. (hard one) build the app from source
 5. feel free to show more skills .. :)
 
-----
+
 ## important: 
 the code for the service's is taken from hashicorp github repo . so you may find more info that can help you to complete the task.
- all files created for the task should be included in the repo. 
+all files created for the task should be included in the repo. 
 as mentioned , there shoudnt be any charge  but we're notresponsible for any charges .
 
 ## dont hesitate to ask any questions  .
 ## take 3 days for the task .
-# dont forget to clean everything when finished ! &  send me a link to the repo / zip file.
+## dont forget to clean everything when finished ! &  send me a link to the repo / zip file.
 
-good luck! 
+# good luck! 
