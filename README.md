@@ -1,19 +1,47 @@
-# home-work
+# Home-work for DEVOPS & IT POSITION
+
 create a free azure account https://azure.microsoft.com/en-us/free/ (there shouldnt be any additional charges with this task , but we're not responsible if for some reason youre getting charged)
 
 ### create a a kubernetes cluster on (AKS) (which stands in the free trial ) through the UI / CLI 
-# any other platform will be accepted but should be on the cloud.
+any other platform will be accepted but should be on the cloud.
 
 
-```
+
 
 Install `kubectl`.
 
-connect to the cluster and show it (e.g. attach here output of : kubectl get all )
-
+connect to the cluster and show it e.g. attach here output of : 
 ```
+kubectl get all 
+```
+
 ## clone the repo 
+```
+git clone https://github.com/Contguard/home-work.git
+```
 ## create a Dockerfile for each service (dashboard-service and counting-service)
+
+example:
+```
+#
+FROM golang:1.16-alpine
+
+WORKDIR /app
+
+COPY go.mod ./
+COPY go.sum ./
+RUN go mod download
+
+COPY *.go ./
+
+RUN ./bin/build
+EXPOSE 9002
+ENV PORT 9002
+ENV COUNTING_SERVICE_URL http://counting.service.consul:9001
+
+CMD ["./dashboard-service"]
+```
+
 ---
 create a workflow (using github-actions) which build's the app's . push the images to a container registry .  & deploy the applications to the cluster.
 
