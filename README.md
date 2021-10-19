@@ -46,7 +46,7 @@ more info can be found here https://docs.github.com/en/actions
 
 
 
-
+## last step :
 determine the svc name . 
 ```
 kubectl get svc
