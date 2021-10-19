@@ -3,7 +3,7 @@
 create a free azure account https://azure.microsoft.com/en-us/free/ (there shouldn't be any additional charges with this task , but we're not responsible if for some reason youre getting charged)
 
 ### getting started :  
-## create a a kubernetes cluster on (AKS) (which stands in the free trial ) through the UI / CLI 
+## create a kubernetes cluster on (AKS) (which stands in the free trial ) through the UI / CLI 
 
 any other platform will be accepted but should be hosted on cloud  (not locally).
 
@@ -22,6 +22,7 @@ kubectl get all
 ```
 git clone https://github.com/Contguard/home-work.git
 ```
+Then push it to a repo on your github account.
 
 ## 2.  create yaml files for deployment :
 ```
