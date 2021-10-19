@@ -85,6 +85,6 @@ as mentioned , there shoudnt be any charge  but we're notresponsible for any cha
 
 ## dont hesitate to ask any questions  .
 ## take 3 days for the task .
-# dont forget tp clean everything when finished ! &  send me a link to the repo / zip file.
+# dont forget to clean everything when finished ! &  send me a link to the repo / zip file.
 
 good luck! 
