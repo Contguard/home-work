@@ -1,4 +1,4 @@
-# Home-work for DEVOPS & IT POSITION
+# HOMEWORK for DEVOPS & IT POSITION
 
 create a free azure account https://azure.microsoft.com/en-us/free/ (there shouldn't be any additional charges with this task , but we're not responsible if for some reason youre getting charged)
 
