@@ -32,14 +32,13 @@ you can use this tutorial as a template , (Change/remove values as needed, https
 ---
 ## 3. create a workflow(s) for each service  using github-actions that does that:
 
-```
-TIP:
+
+(TIP:
 it may be easier if you test everything manually first, and then move each step, to the workflow (but for your choice): 
 docker build .. 
 docker push , 
-kubectl apply -f .. 
+kubectl apply -f .. )
 
-```
 
  1. build's  dockerfile for each service.
  2. push the images to a container registry (dosent matter which one.. dockerhub \ azure acr \ github packages  ..),
